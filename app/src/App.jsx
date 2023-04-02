@@ -6,9 +6,9 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import {MainContainer,ChatContainer,MessageList,Message,MessageInput,TypingIndicator} from '@chatscope/chat-ui-kit-react';
 import { library, icon } from '@fortawesome/fontawesome-svg-core'
 import { faCamera } from '@fortawesome/free-solid-svg-icons'
-import API_KEY from './apiKey';
+
 function App() {
- 
+const API_KEY="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";
 library.add(faCamera)
 
 const camera = icon({ prefix: 'fas', iconName: 'camera' })
